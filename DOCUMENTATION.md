@@ -1,12 +1,6 @@
 # Documentation
 
-```bash
-   _                  _           ___         _ ___         _
-  /_\  _ _ _ _ ___ __| |_ ___ _ _| _ ) ___ __| | _ \__ _ __| |__ _ _ _ 
- / _ \| '_| '_/ -_|_-<  _/ -_) '_| _ \/ -_) _` |   / _` / _` / _` | '_|
-/_/ \_\_| |_| \___/__/\__\___|_| |___/\___\__,_|_|_\__,_\__,_\__,_|_|  
-------------------- Seprodi Barnabas | Version: 2.2 -------------------
-```
+## Arrester Bed Radar
 
 This is a program designed map surfaces from above, in this particular case the uneven surface of a sand bed. It uses a linear laser to shine onto the uneven surface and the bended line is recorded on a camera. It's implemented in Python and uses the `cv2` package to mask the brightest points and convert them to x,y,z coordinates. It creates two CSV files in the `measurements/` directory: one contains the points (x,y,z) the oder contains the with, depth and cross section (w,d,A) of each layer.
 
