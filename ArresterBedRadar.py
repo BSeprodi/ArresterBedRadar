@@ -1,6 +1,6 @@
 # Author: Seprodi Barnabas
-# Version: 2.1
-# Date: 2023-07-02
+# Version: 2.2
+# Date: 2023-09-24
 
 import cv2
 import numpy as np
@@ -104,7 +104,7 @@ def main():
     print("  /_\  _ _ _ _ ___ __| |_ ___ _ _| _ ) ___ __| | _ \__ _ __| |__ _ _ _ ")
     print(" / _ \| '_| '_/ -_|_-<  _/ -_) '_| _ \/ -_) _` |   / _` / _` / _` | '_|")
     print("/_/ \_\_| |_| \___/__/\__\___|_| |___/\___\__,_|_|_\__,_\__,_\__,_|_|  ")
-    print("------------------- Seprodi Barnabas | Version: 2.1 -------------------")
+    print("------------------- Seprodi Barnabas | Version: 2.2 -------------------")
     print(f"Defaults: {filename = }, {D = }m, {H = }m, {B = }")
 
     CAP = cv2.VideoCapture(1) # For USB camera use 1 as value
